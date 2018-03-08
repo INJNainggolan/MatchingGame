@@ -94,21 +94,33 @@
                                 <rect key="frame" x="195" y="90" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="back"/>
+                                <connections>
+                                    <action selector="tileClicked_3:" destination="Ya9-RK-KaT" eventType="touchUpInside" id="vpi-b1-bq7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eod-sM-9fB">
                                 <rect key="frame" x="255" y="90" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="back"/>
+                                <connections>
+                                    <action selector="tileClicked_4:" destination="Ya9-RK-KaT" eventType="touchUpInside" id="bDR-mc-BhU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mnd-4l-b6y">
                                 <rect key="frame" x="135" y="90" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="back"/>
+                                <connections>
+                                    <action selector="tileClicked_2:" destination="Ya9-RK-KaT" eventType="touchUpInside" id="O9H-3W-B4e"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqv-os-tPi">
                                 <rect key="frame" x="75" y="90" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="back"/>
+                                <connections>
+                                    <action selector="tileClicked_1:" destination="Ya9-RK-KaT" eventType="touchUpInside" id="bsd-VH-SRL"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5bH-xV-Ebn">
                                 <rect key="frame" x="39" y="17" width="320" height="39"/>
@@ -129,26 +141,41 @@
                                 <rect key="frame" x="195" y="150" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="back"/>
+                                <connections>
+                                    <action selector="tileClicked_8:" destination="Ya9-RK-KaT" eventType="touchUpInside" id="2Mn-ik-ZbX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFX-3Q-7Y7">
                                 <rect key="frame" x="255" y="150" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="back"/>
+                                <connections>
+                                    <action selector="tileClicked_9:" destination="Ya9-RK-KaT" eventType="touchUpInside" id="9b3-s7-zh3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pea-Wa-Es0">
                                 <rect key="frame" x="135" y="150" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="back"/>
+                                <connections>
+                                    <action selector="tileClicked_7:" destination="Ya9-RK-KaT" eventType="touchUpInside" id="dFy-rL-x9x"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecH-J5-S44">
                                 <rect key="frame" x="75" y="150" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="back"/>
+                                <connections>
+                                    <action selector="tileClicked_6:" destination="Ya9-RK-KaT" eventType="touchUpInside" id="P55-g2-Sql"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m37-6u-4WC">
                                 <rect key="frame" x="15" y="150" width="50" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="back"/>
+                                <connections>
+                                    <action selector="tileClicked_5:" destination="Ya9-RK-KaT" eventType="touchUpInside" id="VTB-In-Rv9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="03J-Je-QL5">
                                 <rect key="frame" x="195" y="210" width="50" height="50"/>
